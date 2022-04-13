@@ -130,9 +130,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 3722947263702332030}
+  camTransform: {fileID: 3722947264059301183}
+  lookAt: {fileID: 3722947263702331906}
   speed: 6
   gravity: -9.81
   jumpHeight: 3
+  distance: 3
+  camSpeed: {x: 10, y: 10}
 --- !u!1 &3722947264059301182
 GameObject:
   m_ObjectHideFlags: 0
