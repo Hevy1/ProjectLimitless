@@ -2393,7 +2393,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2100027204}
   - component: {fileID: 2100027205}
-  - component: {fileID: 2100027206}
   m_Layer: 5
   m_Name: Slider
   m_TagString: Untagged
@@ -2478,7 +2477,7 @@ MonoBehaviour:
       - m_Target: {fileID: 501592473}
         m_TargetAssemblyTypeName: VolumeSaveController, Assembly-CSharp
         m_MethodName: VolumeSlider
-        m_Mode: 4
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2487,20 +2486,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &2100027206
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2100027203}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: de8ff8555237d1441bf87d32ee69cebd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  volumeSlider: {fileID: 2100027205}
-  volumeTextUI: {fileID: 993990659}
 --- !u!1 &2100285337
 GameObject:
   m_ObjectHideFlags: 0
