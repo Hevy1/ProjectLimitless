@@ -66,13 +66,13 @@ public class Kart_Controller : MonoBehaviour
             if (inputValueR >= inputValueL && inputValueR != 0)
             {
                 //Forward
-                this.gameObject.transform.position += this.gameObject.transform.forward * Time.deltaTime * inputValueR * 5;
+                this.gameObject.transform.position += this.gameObject.transform.forward * Time.deltaTime * inputValueR * 8;
                 this.gameObject.transform.Rotate(0, m_Angle /120 * inputValueR, 0);
             }
             else
             {
                 //Backward
-                this.gameObject.transform.position += this.gameObject.transform.forward * Time.deltaTime * -inputValueL * 2;
+                this.gameObject.transform.position += this.gameObject.transform.forward * Time.deltaTime * -inputValueL * 5;
                 this.gameObject.transform.Rotate(0, m_Angle/120 * inputValueL, 0);
             }
             
