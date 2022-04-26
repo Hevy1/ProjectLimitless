@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Lock : MonoBehaviour
 {
-    private bool isLocked = false;
+    public bool isLocked = true;
     private Rigidbody rb;
 
     public bool GetState()
