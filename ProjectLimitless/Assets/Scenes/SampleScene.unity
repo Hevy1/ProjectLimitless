@@ -539,6 +539,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.05, y: 0.8030789, z: 1.9387606}
   m_Center: {x: 0.017979093, y: -0.39169115, z: 0.9756203}
+--- !u!114 &114642488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 114642480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf9d81a9ecd43044886a7acee95c2370, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &153788558 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9039965384244611411, guid: 89dd74c61103b7644ab2dd9d26606ea0,
@@ -626,6 +638,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1426204294826946623, guid: 89dd74c61103b7644ab2dd9d26606ea0,
+        type: 3}
+      propertyPath: m_ConnectedBody
+      value: 
+      objectReference: {fileID: 114642482}
     - target: {fileID: 4276332998552383098, guid: 89dd74c61103b7644ab2dd9d26606ea0,
         type: 3}
       propertyPath: m_RootOrder
@@ -691,6 +708,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DoorV6
       objectReference: {fileID: 0}
+    - target: {fileID: 5056787942988709306, guid: 89dd74c61103b7644ab2dd9d26606ea0,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5242812692146525453, guid: 89dd74c61103b7644ab2dd9d26606ea0,
         type: 3}
       propertyPath: m_Enabled
@@ -703,7 +725,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5242812692146525453, guid: 89dd74c61103b7644ab2dd9d26606ea0, type: 3}
-    - {fileID: 5056787942988709306, guid: 89dd74c61103b7644ab2dd9d26606ea0, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 89dd74c61103b7644ab2dd9d26606ea0, type: 3}
 --- !u!1 &599916901
 GameObject:
