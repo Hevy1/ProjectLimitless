@@ -19,6 +19,7 @@ public class DoorManager : MonoBehaviour
     public void Unlock(int index)
     {
         doorList[index].SetState(false);
+        Debug.Log("Unlocked");
     }
 
     // Update is called once per frame

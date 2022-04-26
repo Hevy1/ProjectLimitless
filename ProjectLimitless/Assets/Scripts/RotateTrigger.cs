@@ -18,7 +18,7 @@ public class RotateTrigger : MonoBehaviour
     {
         if (playerIn)
         {
-            Debug.Log("Rotate Player");
+            //Debug.Log("Rotate Player");
         }
     }
 

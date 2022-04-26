@@ -5,6 +5,7 @@ using UnityEngine;
 public class PanierManager : MonoBehaviour
 {
     private int count = 0;
+    public DoorManager dr;
 
     public void OnTriggerEnter(Collider other)
     {
@@ -12,12 +13,15 @@ public class PanierManager : MonoBehaviour
         {
             count++;
             Debug.Log("Balle ajoutée");
+            Debug.Log(count);
+            if (count == 4)
+            {
+                Debug.Log("Unlock the door");
+                dr.Unlock(0);
+            }
         }
 
-        if (count == 4)
-        {
-            Debug.Log("Unlock the door");
-        }
+        
     }
 
     public void OnTriggerExit(Collider other)
