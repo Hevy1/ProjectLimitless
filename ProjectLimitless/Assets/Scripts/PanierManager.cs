@@ -11,6 +11,7 @@ public class PanierManager : MonoBehaviour
         if (other.tag == "Balle")
         {
             count++;
+            Debug.Log("Balle ajoutée");
         }
 
         if (count == 4)
