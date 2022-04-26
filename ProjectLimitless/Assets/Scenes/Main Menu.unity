@@ -686,6 +686,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1465378973, guid: 04d852b7a9a42634bbb3381746481bae, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2117464450296934312, guid: 04d852b7a9a42634bbb3381746481bae,
         type: 3}
       propertyPath: m_IsActive
@@ -705,6 +709,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_InvalidColorGradient.key2.a
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6571414611206277005, guid: 04d852b7a9a42634bbb3381746481bae,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6571414612023932201, guid: 04d852b7a9a42634bbb3381746481bae,
         type: 3}
@@ -1143,7 +1152,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!81 &1201716798
 AudioListener:
   m_ObjectHideFlags: 0

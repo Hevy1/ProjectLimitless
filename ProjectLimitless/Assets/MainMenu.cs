@@ -13,7 +13,17 @@ public class MainMenu : MonoBehaviour
 
     public void StartGame()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("MainScene");
 
+    }
+
+    public void BackToMenu()
+    {
+        SceneManager.LoadScene("Main Menu");
+    }
+
+    public void ResumeGame()
+    {
+        this.gameObject.SetActive(false);
     }
 }

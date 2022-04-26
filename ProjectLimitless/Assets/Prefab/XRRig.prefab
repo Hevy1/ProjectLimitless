@@ -1698,6 +1698,7 @@ GameObject:
   - component: {fileID: 3322157143073652399}
   - component: {fileID: 4107394742350571515}
   - component: {fileID: 2258171226344159709}
+  - component: {fileID: 1465378973}
   m_Layer: 0
   m_Name: XRRig
   m_TagString: Untagged
@@ -1734,7 +1735,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_CameraFloorOffsetObject: {fileID: 6571414611193252768}
   m_RequestedTrackingMode: 0
-  m_TrackingOriginMode: 1
+  m_TrackingOriginMode: 2
   m_TrackingSpace: 0
   m_CameraYOffset: 1.36144
 --- !u!114 &6571414612657982843
@@ -1871,6 +1872,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 116
   m_CollisionDetection: 0
+--- !u!114 &1465378973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6571414612657982847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd4109936dcf222448822c2c4c56e1b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RdeviceRole: 3
+  canvas: {fileID: 0}
 --- !u!1 &7939907277161119170
 GameObject:
   m_ObjectHideFlags: 0
